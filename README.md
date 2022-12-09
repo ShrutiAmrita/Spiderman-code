@@ -3,7 +3,8 @@ Python code for drawing spiderman
 
 from turtle import *
 
-speed(13) # Painting speed control
+speed(13)
+# Painting speed control
 bgcolor("#990000")
 pensize(10)
 penup()
@@ -88,6 +89,7 @@ goto(-152,-86)
 pendown()
 left(40)
 circle(35,90)
+
 # Body coloring
 penup()
 goto(-80,116)
@@ -113,6 +115,7 @@ fd(55)
 seth(140)
 circle(120,78)
 end_fill()
+
 # Arm 1 To color
 penup()
 fillcolor("#3366cc")
@@ -243,6 +246,7 @@ right(38)
 pendown()
 fd(70)
 speed(10)
+
 # The left eye
 penup()
 pensize(7)
